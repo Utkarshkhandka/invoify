@@ -18,7 +18,7 @@
 
 ---
 
-## 🌟 Overview
+## Overview
 
 **Invox** is a full-featured web application designed to streamline the invoice creation and dispatch workflow. Built with the **Next.js 15 App Router**, **TypeScript**, and **Tailwind CSS**, Invox gives users a seamless experience—from live in-browser preview to pixel-perfect server-side PDF generation, multiple export formats, digital signatures, and direct email delivery.
 
@@ -28,7 +28,7 @@
 
 ---
 
-## ✨ Features
+## Features
 
 - 🧾 **Dynamic Invoice Customization**:
   - Configurable sender (*Bill From*) and recipient (*Bill To*) records.
@@ -137,7 +137,7 @@ You can run Invox inside a container using Docker:
 
 1. **Build the Docker image:**
    ```bash
-   docker build -t invox .
+   docker build -t invox.
    ```
 
 2. **Run the container:**
@@ -177,7 +177,7 @@ You can run Invox inside a container using Docker:
 ## 📜 Available Scripts
 
 - `npm run dev` — Starts the Next.js development server with Turbopack.
-- `npm run build` — Builds the application for production.
+- `npm run build` — Builds the production application.
 - `npm run start` — Starts the built production server.
 - `npm run lint` — Runs ESLint checks across the project.
 - `npm run analyze` — Runs bundle analyzer to inspect chunk sizes.
